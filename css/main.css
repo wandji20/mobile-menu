@@ -25,10 +25,40 @@ header {
   padding: 15px;
   background-color: #3c3a39;
   color: white;
+  flex-wrap: wrap;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav {
   display: none;
+}
+
+.active {
+  width: 100%;
+  justify-content: center;
+  /* transition: 5s; */
+}
+
+.active-button {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding-right: 5px;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #fff;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: 350ms;
+}
+
+.nav-link:hover {
+  border: 1px solid #d2d5db;
 }
 
 #logo {
@@ -43,6 +73,7 @@ header {
   background: transparent;
   border: none;
   outline: none;
+  margin-right: 8px;
 }
 
 .menu-bars i {
@@ -411,8 +442,7 @@ textarea {
   align-items: center;
   justify-content: space-around;
   padding: 5vh;
-  filter:
-    invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
+  filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
 }
 
@@ -453,7 +483,7 @@ textarea {
     margin-right: 10vw;
   }
 
-  .nav-link {
+  /* .nav-link {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -467,7 +497,7 @@ textarea {
 
   .nav-link:hover {
     border: 1px solid #d2d5db;
-  }
+  } */
 
   #logo {
     font-size: 24px;
