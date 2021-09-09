@@ -9,14 +9,12 @@ console.log(header);
 
 const showNav = () => {
   if (nav.style.display === '') {
-    burgerButton.innerHTML = 'X';
     burgerButton.classList.add('active-button');
     nav.style.display = 'flex';
     nav.classList.add('active');
   } else {
     nav.classList.remove('active');
     burgerButton.classList.remove('active-button');
-    burgerButton.innerHTML = burgerIcon;
     nav.style.display = '';
   }
 };
