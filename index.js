@@ -1,8 +1,8 @@
 const header = document.querySelector('header');
 const burgerButton = document.querySelector('.menu-bars');
-const burgerIcon = '<i class="fas fa-bars"></i>';
 const nav = document.getElementById('desktop-nav');
 console.log(header);
+// const burgerIcon = '<i class="fas fa-bars"></i>';
 // console.log(burgerButton);
 // console.log(burgerIcon);
 // console.log(nav);
