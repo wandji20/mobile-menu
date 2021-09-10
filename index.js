@@ -1,4 +1,3 @@
-const header = document.querySelector('header');
 const burgerButton = document.querySelector('.menu-bars');
 const nav = document.getElementById('desktop-nav');
 
@@ -7,7 +6,7 @@ const burgerIcon = '<i class="fas fa-bars"></i>';
 const showNav = () => {
   if (nav.style.display === '') {
     burgerButton.classList.add('active-button');
-    burgerButton.innerHTML = 'X'
+    burgerButton.innerHTML = 'X';
     nav.style.display = 'flex';
     nav.classList.add('active');
   } else {
